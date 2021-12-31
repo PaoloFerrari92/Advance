@@ -1,0 +1,32 @@
+{
+  "name": "advance",
+  "version": "1.0.0",
+  "description": "progetto Javascript Advance Start2Impact",
+  "main": "index.js",
+  // La sezione scripts va modificata per usare le funzionalità di webpack
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  // Quando viene lanciato il comando npm run dev webpack fa partire il plugin dev server in modalità sviluppo
+  // vedi commento nello snippet sopra **
+  "dev": "webpack serve --mode development",
+  // Mentre in modalità produzione viene ottimizzato e impacchettato il codice
+  "build": "webpack --mode production"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaoloFerrari92/Advance.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaoloFerrari92/Advance/issues"
+  },
+  "homepage": "https://github.com/PaoloFerrari92/Advance#readme",
+  "devDependencies": {
+    "dotenv-webpack": "^7.0.3",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  }
+}
