@@ -55,7 +55,7 @@ button:hover {
   background: #7c7c7c6b;
 }
 
-h1.temp {
+h1.categorie {
   margin: 0;
   margin-bottom: 0.4em;
   font-size: 105%;
@@ -72,7 +72,10 @@ h1.temp {
   font-size: 105%;
 
 }
+.sumary {
+  margin-top: 5%;
 
+}
 .weather.loading {
   visibility: hidden;
   max-height: 20px;
