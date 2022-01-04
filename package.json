@@ -3,13 +3,10 @@
   "version": "1.0.0",
   "description": "progetto Javascript Advance Start2Impact",
   "main": "index.js",
-  // La sezione scripts va modificata per usare le funzionalità di webpack
 "scripts": {
   "test": "echo \"Error: no test specified\" && exit 1",
-  // Quando viene lanciato il comando npm run dev webpack fa partire il plugin dev server in modalità sviluppo
-  // vedi commento nello snippet sopra **
+  
   "dev": "webpack serve --mode development",
-  // Mentre in modalità produzione viene ottimizzato e impacchettato il codice
   "build": "webpack --mode production"
 },
   "repository": {
