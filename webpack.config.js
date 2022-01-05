@@ -5,7 +5,7 @@ const Dotenv = require('dotenv-webpack')
 module.exports = {
   mode: 'development',
   entry: {
-    index: path.resolve(__dirname, './src/js/index.js')
+    index: path.resolve(__dirname, 'scr/script.js')
   },
   output: {
     path: path.resolve(__dirname, './build'),
@@ -13,7 +13,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, './src/template.html')
+      template: path.resolve(__dirname, 'scr/index.html')
     }),
     new Dotenv()
   ],
