@@ -26,7 +26,7 @@ let weather = {
     const { categories } = data;
     const categoriesStrings = [];
     categories.forEach(({ name, score_out_of_10 }) => {
-      categoriesStrings.push("Categories =  " + name + ", score out of 10= " + Math.round(score_out_of_10 * 100 + Number.EPSILON) / 100);
+      categoriesStrings.push("Categories =  " + name + ", score = " + Math.round(score_out_of_10 * 100 + Number.EPSILON) / 100);
     });
 
     document.querySelector(".categorie").innerText =
