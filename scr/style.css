@@ -163,7 +163,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 250vh;
+    height: 100vh;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     background: #222;
@@ -192,7 +192,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 205vh;
+    height: 100vh;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     background: #222;
