@@ -1,9 +1,9 @@
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 130vh;
-  margin: 0;
+  align-items:flex-start;
+  height: 100vh;
+  margin: 50px;
   font-family: 'Open Sans', sans-serif;
   background: #222;
   background-image: url('https://source.unsplash.com/1600x900/?landscape');
@@ -162,9 +162,9 @@ button:hover {
   body {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+    align-items:flex-start;
+    height: 80vh;
+    margin: 50px;
     font-family: 'Open Sans', sans-serif;
     background: #222;
     background-image: url('https://source.unsplash.com/1600x900/?landscape');
@@ -177,9 +177,9 @@ button:hover {
   body {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 205vh;
-    margin: 0;
+    align-items:flex-start;
+    height: 80vh;
+    margin: 50px;
     font-family: 'Open Sans', sans-serif;
     background: #222;
     background-image: url('https://source.unsplash.com/1600x900/?landscape');
@@ -191,9 +191,9 @@ button:hover {
   body {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+    align-items:flex-start;
+    height: 80vh;
+    margin: 50px;
     font-family: 'Open Sans', sans-serif;
     background: #222;
     background-image: url('https://source.unsplash.com/1600x900/?landscape');
